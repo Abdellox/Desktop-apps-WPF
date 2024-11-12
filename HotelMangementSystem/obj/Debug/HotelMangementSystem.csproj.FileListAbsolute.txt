@@ -1,0 +1,7 @@
+C:\Users\HP\OneDrive\Bureau\DotNet\3-WPF Learn\HotelMangementSystem\obj\Debug\HotelMangementSystem.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Bureau\DotNet\3-WPF Learn\HotelMangementSystem\obj\Debug\Views\MainWindow.g.cs
+C:\Users\HP\OneDrive\Bureau\DotNet\3-WPF Learn\HotelMangementSystem\obj\Debug\Views\Window2.g.cs
+C:\Users\HP\OneDrive\Bureau\DotNet\3-WPF Learn\HotelMangementSystem\obj\Debug\Views\Window1.g.cs
+C:\Users\HP\OneDrive\Bureau\DotNet\3-WPF Learn\HotelMangementSystem\obj\Debug\App.g.cs
+C:\Users\HP\OneDrive\Bureau\DotNet\3-WPF Learn\HotelMangementSystem\obj\Debug\HotelMangementSystem_MarkupCompile.cache
+C:\Users\HP\OneDrive\Bureau\DotNet\3-WPF Learn\HotelMangementSystem\obj\Debug\HotelMangementSystem_MarkupCompile.lref

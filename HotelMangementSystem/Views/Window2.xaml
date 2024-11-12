@@ -1,0 +1,30 @@
+﻿<Window x:Class="HotelMangementSystem.Views.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelMangementSystem.Views"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+    <Grid>
+        <Border BorderBrush="Black" BorderThickness="10" CornerRadius="8" Margin="12">
+            <StackPanel Orientation="Horizontal" >
+                
+                <WrapPanel Width="200" Height="220" >
+                <Image Source="/Images/Drink.jpg" Margin="4"/>
+                <TextBlock TextWrapping="Wrap">
+                    I heart store stern the thee within tossed or decorum caught all in
+                    rustling my much upon chamber door me
+                </TextBlock>
+            </WrapPanel>
+            <WrapPanel Width="200" Height="220" >
+                <Image Source="/Images/Drink.jpg" Margin="4"/>
+                <TextBlock TextWrapping="Wrap">
+        I heart store stern the thee within tossed or decorum caught all in
+        rustling my much upon chamber door me
+                </TextBlock>
+            </WrapPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

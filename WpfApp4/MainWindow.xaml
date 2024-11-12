@@ -1,0 +1,39 @@
+﻿<Window x:Class="WpfApp4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="*"/>
+           
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Completed Information:" FontSize="42" Grid.ColumnSpan="2"/>
+        <TextBlock Text="First Name" FontSize="28" Grid.Column="0" Grid.Row="1"/>
+        <TextBlock Text="Last Name" FontSize="28" Grid.Column="0" Grid.Row="2"/>
+        <TextBlock Text="Gender" FontSize="28" Grid.Column="0" Grid.Row="3"/>
+        <TextBlock Text="Country" FontSize="28" Grid.Column="0" Grid.Row="4"/>
+        <TextBox x:Name="txtFname"  FontSize="30" Grid.Column="1" Grid.Row="1"/>
+        <TextBox x:Name="txtLname"  FontSize="30" Grid.Column="1" Grid.Row="2"/>
+        <ComboBox x:Name="txtGender"  FontSize="30" Grid.Column="1" Grid.Row="3">
+            <ComboBoxItem  Content="Female"/>
+            <ComboBoxItem  Content="Male"/>
+
+
+        </ComboBox>
+        <TextBox x:Name="txtCountry"  FontSize="30" Grid.Column="1" Grid.Row="4"/>
+        <Button x:Name="btnSubmit" Click="btnSubmit_Click"  Content="Submit" FontSize="28" Grid.Column="1" Grid.Row="5"/>
+    </Grid>
+</Window>
